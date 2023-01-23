@@ -1,0 +1,16 @@
+button {
+    @include button;
+}
+
+
+.button-blue {
+    @include button;
+    transition: 0.25s;
+    background-color: $button-blue;
+    color: white;
+    border-radius: 18px;
+}
+
+.button-blue:hover {
+    background-color: $button-blue-dark;
+}

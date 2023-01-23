@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import 'colors';
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-size: rem(54);
+    font-weight: 700;
+}
+
+h2 {
+    font-size: rem(40);
+}
+
+h3 {
+    font-size: rem(32);
+}
+
+h4 {
+    font-size: rem(26);
+}
+
+h5 {
+    font-size: rem(21);
+}
+
+h6 {
+    font-size: rem(14);
+    text-transform: uppercase;
+    color: $primary-color;
+}
+
+.large-paragraph {
+    font-size: rem(24);
+}
+
+.medium-paragraph {
+    font-size: rem(16);
+}
+
+.small-paragraph {
+    font-size: rem(14);
+}
+
+.large-paragraph, 
+.medium-paragraph, 
+.small-paragraph {
+    opacity: 70%;
+}
+
+.heading-gradient {
+    @include gradient-text;
+}
+
+.paragraph-bold {
+    font-weight: 600;
+}

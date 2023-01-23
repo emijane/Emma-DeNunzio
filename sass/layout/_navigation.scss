@@ -1,0 +1,58 @@
+.section__nav {
+    border: 1px solid $aside-bg-color;
+
+    &__title {
+        display: flex;
+        gap: rem(10);
+        align-items: center;
+        padding-top: rem(45);
+        padding-left: rem(30);
+        padding-right: rem(30);
+        padding-bottom: rem(30);
+        transition: 0.25s;
+
+        i {
+            color: $primary-color;
+            font-size: rem(20);
+        }
+    }
+}
+
+.active {
+    i {
+        color: $primary-color !important;
+    }
+
+    display: flex !important;
+}
+
+.active.tab {
+    background-color: $current-bg-color;
+}
+
+.tab {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: rem(15);
+    list-style-type: none;
+    color: $text-grey;
+    padding-top: rem(20);
+    padding-bottom: rem(20);
+    padding-left: rem(25);
+    border-radius: rem(10);
+    transition: 0.25s;
+
+    i {
+        font-size: rem(15);
+        transition: 0.25s;
+    }
+}
+
+.tab:hover{
+    margin-left: rem(15);
+    cursor: pointer;
+    i {
+        color: $primary-color !important;
+    }
+}

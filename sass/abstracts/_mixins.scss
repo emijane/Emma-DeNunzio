@@ -1,0 +1,16 @@
+// Gradient mixin
+
+@mixin gradient-text {
+    background: linear-gradient(90deg, rgb(255, 177, 207) 5%, rgb(226, 82, 135) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@mixin button {
+    background: none;
+	border: none;
+	padding: rem(16);
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
