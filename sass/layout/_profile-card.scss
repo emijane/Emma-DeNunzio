@@ -1,7 +1,11 @@
 .bio-card {
     padding: rem(40);
+    gap: 3%;
+    width: 100%;
+    display: flex;
 
     &__wrap {
+        width:75%;
         border: 1px solid $aside-bg-color;
         
         .cover-img {

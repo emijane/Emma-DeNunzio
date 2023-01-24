@@ -66,6 +66,22 @@ h6 {
           box-sizing: border-box;
 }
 
+a {
+  all: unset;
+  cursor: pointer;
+}
+
+.icon {
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  opacity: 60%;
+  font-size: 1.375rem;
+}
+
+.icon:hover {
+  color: #fd8db6;
+}
+
 button {
   background: none;
   border: none;
@@ -115,7 +131,6 @@ button {
 
 .section__nav__title i {
   color: #fd8db6;
-  font-size: 1.25rem;
 }
 
 .active {
@@ -142,7 +157,6 @@ button {
           align-items: center;
   gap: 0.9375rem;
   list-style-type: none;
-  color: #959595;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
   padding-left: 1.5625rem;
@@ -152,7 +166,6 @@ button {
 }
 
 .tab i {
-  font-size: 0.9375rem;
   -webkit-transition: 0.25s;
   transition: 0.25s;
 }
@@ -196,9 +209,15 @@ button {
 
 .bio-card {
   padding: 2.5rem;
+  gap: 3%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .bio-card__wrap {
+  width: 75%;
   border: 1px solid #f8f8f8;
 }
 
@@ -264,10 +283,32 @@ button {
 }
 
 .tab-content {
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
   display: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.social-media-card {
+  width: 25%;
+  background-color: white;
+  padding: 1.5625rem;
+  border-radius: 1.25rem;
+}
+
+.social-media-card h5 {
+  margin-bottom: 0.9375rem;
+}
+
+.social-media-card__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 /*# sourceMappingURL=main.css.map */

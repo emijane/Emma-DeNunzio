@@ -1,0 +1,20 @@
+// Social media card
+
+.social-media-card {
+    width: 25%;
+    background-color: white;
+    padding: rem(25);
+    border-radius: rem(20);
+
+    h5 {
+        margin-bottom: rem(15);
+    }
+    
+
+    &__link {
+        display: flex;
+        gap: 3%;
+        padding-top: rem(20);
+        padding-bottom: rem(20);
+    }
+}

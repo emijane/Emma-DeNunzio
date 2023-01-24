@@ -3,3 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+a {
+    all: unset;
+    cursor: pointer;
+}
+
+
+.icon {
+    transition: 0.25s;
+    opacity: 60%;
+    font-size: rem(22);
+}
+
+.icon:hover {
+    color: $primary-color;
+}

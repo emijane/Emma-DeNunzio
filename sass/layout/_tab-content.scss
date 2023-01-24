@@ -1,6 +1,7 @@
 // These are styles for tabbed content
 
 .tab-content {
+    transition: 0.25s;
     display: none;
     flex-direction: column;
 }
